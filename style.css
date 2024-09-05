@@ -1,0 +1,120 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+#infoContainer {
+    background-color: #9900cc;
+    width: 17%;
+    height: 100%;
+    position: absolute;
+}
+
+#personalInfo {
+    background-color: #bf00ff;
+    width: 92%;
+    height: 100%;
+    position: absolute;
+    left: 4%;
+    text-align: center; /* Center text horizontally */
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center;
+    padding-top: 10%; /* Add padding at the top to account for space */
+    box-sizing: border-box; /* Include padding in the element's total width and height */
+}
+
+#portrait {
+    height: 37%;
+    width: 82%;
+    border-radius: 50%;
+    background-color: #9900cc;
+    margin-bottom: 10%; 
+    padding: 4%;
+}
+
+#me {
+    height: 98%;
+    width: 98%;
+    border-radius: 50%;
+    background-color: white;
+}
+
+#buttonPanel {
+    background-color: #bf00ff;
+    width: 10%;
+    height: 100%;
+    position: absolute;
+    left: 17%;
+}
+
+#textContainer {
+    background-color: #9900cc;
+    width: 73%;
+    height: 100%;
+    left: 27%;
+    position: absolute;
+}
+
+#textPanel {
+    background-color: #9900cc;
+    width: 90%;
+    height: 100%;
+    position: absolute;
+}
+
+.underPortrait {
+    margin: 2px;
+}
+
+#coverButton {
+    height: 100%;
+    width: 10%;
+    background-color: #9900cc;
+    outline: none;
+    position: absolute;
+    left: 90%;
+}
+
+#eduButton, #orgButton, #extraButton, #skillsButton, #awardsButton {
+    width: 100%;
+    height: 25%;
+    text-align: center;
+    background-color: #9900cc;
+    outline: none;
+}
+
+#coverInfo {
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+
+#eduInfo {
+    height: 100%;
+    width: 0%;
+    display: none;
+}
+
+#orgInfo {
+    height: 100%;
+    width: 0%;
+    display: none;
+}
+
+#extraInfo {
+    height: 100%;
+    width: 0%;
+    display: none;
+}
+#skillsInfo {
+    height: 100%;
+    width: 0%;
+    display: none;
+}
+
+#awardsInfo {
+    height: 100%;
+    width: 0%;
+    display: none;
+}
